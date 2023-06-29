@@ -143,7 +143,6 @@ int main()
     // Dictionary.insert("dog");
     // Dictionary.insert("tree");
     Dictionary.insert("javascripts");
-    Dictionary.insert("hpp");
 
     cout << Dictionary.advanceSearch(".p.") << endl;
     // cout << Dictionary.advanceSearch("javascript") << endl;

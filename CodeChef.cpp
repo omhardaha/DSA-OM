@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define fo(n) for (int i = 0; i < n; i++)
-#define printall(nums) for (auto i : nums){cout << i << " "; } cout << endl;
-#define inputall(nums) for (auto &i : nums) cin >> i;
+#define printall(nums)    \
+    for (auto i : nums)   \
+    {                     \
+        cout << i << " "; \
+    }                     \
+    cout << endl;
+#define inputall(nums)   \
+    for (auto &i : nums) \
+        cin >> i;
 #define ll long long
 #define pb push_back
 #define pp pop_back
