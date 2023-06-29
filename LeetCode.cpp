@@ -15,12 +15,12 @@ int main()
     int minElem = *min_element(nums.begin(), nums.end());
     int countN = count(nums.begin(), nums.end(), 6);
     int sum = accumulate(nums.begin(), nums.end(), 0);
-    
+
     sort(nums.begin(), nums.end());
     reverse(nums.begin(), nums.end());
 
     priority_queue<int> max_heap;
-    priority_queue<pair<int, int>> max_heap_pair;
+    priority_queue<pair<int, int>>max_heap_pair;
     priority_queue<int, vector<int>, greater<int>> min_heap;
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> min_heap_pair;
 
@@ -41,15 +41,19 @@ int main()
     map4.insert(8);
     map4.insert(82);
     map4.insert(248);
-for(auto i : map4) cout<<i;
+    for (auto i : map4)
+        cout << i;
 
     vector<int> prefix = nums;
 
-    for (int i = 1; i < nums.size(); i++) {
+    for (int i = 1; i < nums.size(); i++)
+    {
         prefix[i] += prefix[i - 1];
     }
 
-    for(auto &i : nums ) cout<<i; cout<<endl;
+    for (auto &i : nums)
+        cout << i;
+    cout << endl;
 
     for (int i = 0; i < dp.size(); i++)
     {

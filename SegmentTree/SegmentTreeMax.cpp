@@ -46,8 +46,9 @@ public:
 };
 int main()
 {
-    vector<int> arr = {10, 12, 3, 6, 3, 5, 9, 2, 5, 46};
+    vector<int> arr(10002,0);
     SegmentTreeMax seg(arr);
-    cout << seg.rangeMax(0, 6);
+    // seg.rangeMax()
+    cout << seg.rangeMax(0, 3);
     return 0;
 }

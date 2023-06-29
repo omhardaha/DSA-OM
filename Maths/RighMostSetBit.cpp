@@ -10,7 +10,7 @@ int main()
     RMSB = n & (-n); // = 2
     // cout << RMSB;
     bitset<16> d(-n);
-    cout << d;
+    // cout << d;
     // for further explanation
     // n = 10    //...00000001010
     //-n = -10   //...11111111010
@@ -19,8 +19,8 @@ int main()
 
     int x = 6;       //...000000001010
     int x1 = ~x;     //...111111110101  1s Compliment
-    int x2 = ~x + 1; //...111111110110 =...111111110101 + 1 2s Compliment
-
+    int x2 = x1 + 1; //...111111110110 =...111111110101 + 1 2s Compliment
+    cout<<x2<<endl;
     int RSB = x & x2;
     // ...111111110101
     // ...111111110110

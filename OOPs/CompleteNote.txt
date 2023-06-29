@@ -1,0 +1,5 @@
+1. What is Object Oriented Programming (OOPs)?
+-> OOPs is a programming paradigm where the complete software operates as a bunch of objects talking to each other. An object is a collection of data and the methods which operate on that data.
+
+2. Why OOPs?
+-> -better manageable code    - 
